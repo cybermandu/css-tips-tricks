@@ -1,0 +1,9 @@
+/* Align vertically in Flex */
+
+.align-vertically {
+    background: #13b5ea;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 200px;
+  }
