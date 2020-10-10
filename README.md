@@ -26,17 +26,17 @@ Broken images are ugly. We can use CSS to apply styles to the `<img>` element to
         height: auto;
         display: block;
         position: relative;
-        }
+    }
 
     img:before { 
       content: "We're sorry, the image below is broken :(";
       display: block;
       margin-bottom: 10px;
-      }
+    }
 
     img:after { 
       content: "(url: " attr(src) ")";
       display: block;
       font-size: 12px;
-      }
+    }
 
