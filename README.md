@@ -40,3 +40,10 @@ Broken images are ugly. We can use CSS to apply styles to the `<img>` element to
       font-size: 12px;
     }
 
+### Responsive font size using clamp()
+Found this very good concept for responsive font size using `clamp()` function. [Source css-tricks.com](https://css-tricks.com/min-max-and-clamp-are-css-magic/) Browser support [Caniuse](https://caniuse.com/css-math-functions)
+
+    .el {
+        font-size: clamp(0.9rem, 1vw + 1rem, 2.2rem);
+    }
+
