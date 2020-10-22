@@ -47,3 +47,14 @@ Found this very good concept for responsive font size using `clamp()` function. 
         font-size: clamp(0.9rem, 1vw + 1rem, 2.2rem);
     }
 
+### Dark Mode using CSS
+Achieving Dark Mode with simple CSS trick [Source Dev.to](https://dev.to/akhilarjun/one-line-dark-mode-using-css-24li)
+
+    html[theme='dark-mode'] {
+        filter: invert(1) hue-rotate(180deg);
+    }
+    
+    html[theme='dark-mode'] img{
+        filter: invert(1) hue-rotate(180deg);
+    }
+    
