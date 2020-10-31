@@ -58,3 +58,11 @@ Achieving Dark Mode with simple CSS trick [Source Dev.to](https://dev.to/akhilar
         filter: invert(1) hue-rotate(180deg);
     }
     
+### Browser Support
+`@supports` allows you to check the browser support for CSS property:value pairs. The code that is included in the `@supports` block will be rendered only if these conditions are true, otherwise the code has not been read by the browser. In a case where the browser doesn’t understand `@supports`, it doesn’t generate a given part of the code either. [Source creativebloq](https://www.creativebloq.com/features/css-tricks-to-revolutionise-your-layouts)
+
+    @supports (mix-blend-mode: overlay) {
+        .example {
+            mix-blend-mode: overlay;
+         }
+    }
